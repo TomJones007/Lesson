@@ -1,0 +1,20 @@
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+
+@media (max-width: 800px) {
+    .block{
+        background-color: blue;
+    }
+
+    
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    .block{
+        background-color: rgb(236, 31, 45);
+    }
+}
